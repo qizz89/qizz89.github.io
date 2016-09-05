@@ -19,16 +19,16 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 	from {
 		background-position:0% 0%
 	}
-	to { 
-		background-position: 0% 600% 
+	to {
+		background-position: 0% 600%
 	}
 }
  @keyframes STAR-MOVE {
 	from {
 		background-position: 0% 0%
 	}
-	to { 
-		background-position: 0% 600% 
+	to {
+		background-position: 0% 600%
 	}
 }
 .wall{
@@ -37,7 +37,7 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 	left: 0;
 	bottom: 0;
 	right: 0;
-	
+
 }
 #background{
 	background:black url(../images/bg/stars/background.png) repeat-x 5% 0%;
@@ -49,7 +49,7 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 }
 #midground{
 	background:url(../images/bg/stars/midground.png) repeat 20% 0%;
-	
+
 	-webkit-animation: STAR-MOVE  8s linear infinite;
 	-moz-animation: STAR-MOVE  8s linear infinite;
 	-ms-animation: STAR-MOVE  8s linear infinite;
@@ -57,7 +57,7 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 }
 #foreground{
 	background:url(../images/bg/stars/foreground.png) repeat 35% 0%;
-	
+
 	-webkit-animation: STAR-MOVE  6s linear infinite;
 	-moz-animation: STAR-MOVE  6s linear infinite;
 	-ms-animation: STAR-MOVE  6s linear infinite;
@@ -140,22 +140,22 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 .tab_btn span{ width:20px; height:20px; background:#fff; border-radius:50%; float:left; margin:5px 10px; cursor:pointer; }
 .tab_btn span.active{ background:#f60;}
 .tab1 .cut span{
-	position:absolute; 
-	top:50%; 
-	width:0; 
+	position:absolute;
+	top:50%;
+	width:0;
     height:0;
 	border-style:solid;
 	margin-top:-60px;
 	cursor:pointer;
 	transition:0.3s all ease;
 	}
-.tab1 .prev{ 
+.tab1 .prev{
  	left:25px;
     border-width:60px 50px 60px 0;
 	border-color:transparent #fff transparent transparent;
 	}
-	
-.tab1 .next{ 
+
+.tab1 .next{
  	right:25px;
     border-width:60px 0 60px 50px;
 	border-color:transparent transparent transparent #fff;
@@ -163,7 +163,7 @@ ul.web>li{ height:100%; min-width:1366px; overflow:hidden; font-size:50px; text-
 .tab1 .prev:hover{ border-color:transparent #f40 transparent transparent; }
 .tab1 .next:hover{ border-color:transparent transparent transparent #f40; }
 ul.tab_box{ position:absolute; left:0; top:0; width:100%; height:100%; b }
-ul.tab_box>li{ width:1000px; height:500px; font-size:25px; color:#fff; text-align:center; float:left; position:relative; }	
+ul.tab_box>li{ width:1000px; height:500px; font-size:25px; color:#fff; text-align:center; float:left; position:relative; }
 
 
 /*日历*/
@@ -195,18 +195,18 @@ h5.sfq_tit{ margin-top: 40px;}
 .clock {width:300px; color:#fff; text-align:center; margin:60px 100px 0 130px;  }
 .clock #sample{ border:2px solid #fff; background:#9F3; border-radius:10px; }
 
-@-webkit-keyframes mymove 
+@-webkit-keyframes mymove
 {
 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 }
 
-@-moz-keyframes mymove 
+@-moz-keyframes mymove
 {
 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 }
 
 /*ball*/
@@ -278,7 +278,7 @@ h5.gold{ margin-top:50px; }
   50% {
     -webkit-transform: scale(1);
             transform: scale(1); } }
-			
+
 /*maxim*/
 .foot{ position:relative; width:1000px; height:500px; margin:80px auto; background:#069; border-radius:20px; }
 .foot p{ font-size:23px; cursor: pointer; text-align:center; padding: 5px 0; transition:0.3s all ease; width: 300px; margin:0 auto; }
@@ -287,9 +287,9 @@ h5.gold{ margin-top:50px; }
 .maxim span{ opacity:0; text-shadow:5px 5px 20px #F06; }
 .foot .resume{ font-size:20px; color:#9F3; }
 .foot .ds{ width:260px; margin:20px auto; }
-.foot #res{ position:relative; width:80px; transition:0.5s all ease; height:80px; border-radius:50%; background:#fff; }
+.foot #res{ position:relative; width:80px;margin: 0 auto; transition:0.5s all ease; height:80px; border-radius:50%; background:#fff; }
 .foot #res:hover{ transform:scale(1.2,1.2); box-shadow: 0 0 10px #fff; }
-.foot .download{ transition:0.5s all ease; width:80px; height:80px; font-size:30px; text-align:center; line-height:80px; border-radius:50%; margin-left:100px; color:#fff; background:#F30; }			
+.foot .download{ transition:0.5s all ease; width:80px; height:80px; font-size:30px; text-align:center; line-height:80px; border-radius:50%; margin-left:100px; color:#fff; background:#F30; }
 .foot .download:hover{ transform:scale(1.2, 1.2); box-shadow:0 0 10px #fff;}
 .foot #res a.resume_btn{ font-size:40px; color:red; }
 #res_ball{ position:absolute; top:0; left:50%; margin-left:-10px; margin-top:-10px; width:20px; height:20px; background:#6F3; border-radius:50%; }

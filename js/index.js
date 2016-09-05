@@ -1,19 +1,6 @@
 // JavaScript Document
 ready(function(){
 
-/*download*/
-(function(){
-	var oDown=document.getElementById('download');
-	oDown.onclick=function(){
-		
-		var t=window.confirm('确认下载该简历吗？');
-		if(!t)
-		{
-			oDown.href='javascript:;';	
-		}
-	};	
-})();
-
 //welcome
 var oWel=document.getElementById('wel');
 (function(){
